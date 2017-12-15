@@ -21,7 +21,7 @@ do while (pick<3)
             do i=1,size(k)
             call trapezoidal(k(i), area)
             write (*,*) ''
-            write (7,*) 'Intervals/points, n = ',k(i),area
+            write (7,*) 'Intervals/points, n = ',k(i),'and the corresponding area =', area
             end do
         else if (pick==2) then
         write (*,*) ''
@@ -31,7 +31,7 @@ do while (pick<3)
             do i=1,size(k)
             call simpson(k(i), area)
             write (*,*) ''
-            write (7,*) 'Intervals/points, n = ',k(i),area
+            write (7,*) 'Intervals/points, n = ',k(i),'and the corresponding area =', area
             end do
         else if (pick==3) then
         write (*,*) ''
@@ -39,7 +39,7 @@ do while (pick<3)
             write (7,*) 'Area of the curve using Gauss Method : '
             call gauss(area)
             write (*,*) ''
-            write (7,*) 'Intervals/points, n = ',k(1),area
+            write (7,*) 'Intervals/points, n = ',k(1),'and the corresponding area =', area
         
         end if
         
@@ -52,7 +52,7 @@ end do
 	actarea=(-cos(b))-(-cos(a))
 	write (*,*) ''
 	write (*,*) ''
-	write(7,*) 'The actual value is', actarea
+	write(7,*) 'The actual value of the area is', actarea
 
 close (7)
 

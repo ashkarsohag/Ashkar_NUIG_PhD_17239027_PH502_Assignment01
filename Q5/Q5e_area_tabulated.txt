@@ -1,13 +1,13 @@
  Area of the curve using Trapezoidal Method : 
- Intervals/points, n =            2   1.57079613    
- Intervals/points, n =            8   1.97423148    
- Intervals/points, n =           16   1.99357045    
- Intervals/points, n =           64   1.99959815    
+ Intervals/points, n =            2 and the corresponding area =   1.57079613    
+ Intervals/points, n =            8 and the corresponding area =   1.97423148    
+ Intervals/points, n =           16 and the corresponding area =   1.99357045    
+ Intervals/points, n =           64 and the corresponding area =   1.99959815    
  Area of the curve using Simpson Method : 
- Intervals/points, n =            2   2.09439516    
- Intervals/points, n =            8   2.00026917    
- Intervals/points, n =           16   2.00001645    
- Intervals/points, n =           64   2.00000024    
+ Intervals/points, n =            2 and the corresponding area =   2.09439516    
+ Intervals/points, n =            8 and the corresponding area =   2.00026917    
+ Intervals/points, n =           16 and the corresponding area =   2.00001645    
+ Intervals/points, n =           64 and the corresponding area =   2.00000024    
  Area of the curve using Gauss Method : 
- Intervals/points, n =            2   1.93581939    
- The actual value is   2.00000000    
+ Intervals/points, n =            2 and the corresponding area =   1.93581939    
+ The actual value of the area is   2.00000000    
