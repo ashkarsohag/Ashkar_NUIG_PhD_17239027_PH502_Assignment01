@@ -1,0 +1,21 @@
+ Area of the curve using Trapezoidal Method : 
+ Intervals/points, n =            2   1.57079613    
+ Intervals/points, n =            8   1.97423148    
+ Intervals/points, n =           16   1.99357045    
+ Intervals/points, n =           64   1.99959815    
+ Area of the curve using Simpson Method : 
+ Intervals/points, n =            2   2.09439516    
+ Intervals/points, n =            8   2.00026917    
+ Intervals/points, n =           16   2.00001645    
+ Intervals/points, n =           64   2.00000024    
+ Area of the curve using Gauss Method : 
+ Intervals/points, n =            2   1.93581939    
+ The actual value is   2.00000000    
+
+
+
+COMMENTS on the results:
+
+1) Simpson Method gives the most precise result as all are near about the actual value 2.00000000.
+2) Output from Trapezoidal Method approaches to the actual value as the number of the intervals/points increases.
+3) Gauss Quadrature Method provides the least accurate output.
